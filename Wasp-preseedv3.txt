@@ -139,7 +139,7 @@ tasksel tasksel/first multiselect standard
 # Individual additional packages to install
 #d-i pkgsel/include string openssh-server build-essential curl
 
-d-i pkgsel/include string openssh-server python python-apt aptitude nano htop nmap curl sysstat wget tcpdump dnsutils mmdb-bin unzip iftop net-tools gpg python3-pip sudo
+d-i pkgsel/include string openssh-server python aptitude nano htop nmap curl sysstat wget tcpdump dnsutils mmdb-bin unzip iftop net-tools gpg python3-pip sudo
 
 # Whether to upgrade packages after debootstrap.
 # Allowed values: none, safe-upgrade, full-upgrade
